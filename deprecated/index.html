@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026 Spring Baseball Fundraising</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://zeffy-scripts.s3.ca-central-1.amazonaws.com/embed-form-script.min.js"></script>
+
+    <style>
+        /* If you have 'entersansman.ttf', put it in your GitHub repo and uncomment this: */
+
+        @font-face {
+            font-family: 'EnterSansman';
+            src: url('enter-sansman.bold-italic.ttf') format('truetype');
+            font-style: italic;
+        }
+
+
+        /* Custom Brand Colors */
+        .bg-brand-navy {
+            background-color: #202e4e;
+        }
+
+        .bg-brand-blue {
+            background-color: #4c6895;
+        }
+
+        .bg-brand-light {
+            background-color: #89aede;
+        }
+
+        .text-brand-navy {
+            color: #202e4e;
+        }
+
+        .text-brand-light {
+            color: #89aede;
+        }
+
+        /* Font Styling */
+        .sports-font {
+            /* Fallback to heavy sans-serif if font file isn't found */
+            font-family: 'EnterSansman', 'Impact', 'Arial Black', sans-serif;
+            font-style: italic;
+            text-transform: uppercase;
+            letter-spacing: -0.02em;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        }
+
+        .progress-bar {
+            transition: width 1.5s ease-in-out;
+        }
+    </style>
+</head>
+
+<body class="bg-white text-gray-800">
+
+    <div class="bg-brand-navy text-white py-20 px-6 text-center border-b-8 border-brand-light">
+        <h1 class="sports-font text-5xl md:text-7xl mb-4 italic">2026 Spring Baseball</h1>
+        <p class="text-xl max-w-2xl mx-auto font-medium opacity-90">Support Your Local Little League: Invest in Our
+            Community’s Future</p>
+    </div>
+
+    <div class="max-w-6xl mx-auto py-16 px-6">
+        <h2 class="sports-font text-4xl text-center mb-12 text-brand-navy italic">Sponsorship Packages</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-6 gap-8">
+
+            <div class="md:col-span-3 bg-white border-4 border-brand-navy p-8 flex flex-col shadow-2xl relative">
+                <div
+                    class="absolute -top-5 left-1/2 -translate-x-1/2 bg-brand-navy text-brand-light px-6 py-1 font-bold italic text-sm uppercase">
+                    Official Partner</div>
+                <h3 class="sports-font text-2xl text-brand-navy italic mb-2">Grand Slam</h3>
+                <p class="sports-font text-4xl text-brand-blue italic mb-6">$2,000</p>
+                <ul class="text-gray-600 space-y-3 mb-10 flex-grow font-semibold text-sm">
+                    <li>✓ 'Official Partner' designation</li>
+                    <li>✓ Field Naming Rights</li>
+                    <li>✓ All 'Home Run' Benefits</li>
+                </ul>
+                <button
+                    zeffy-form-link="https://www.zeffy.com/embed/donation-form/2026-spring-baseball?modal=true&amount=2000"
+                    class="sports-font bg-brand-navy text-white w-full py-4 text-xl italic hover:bg-black transition">Sponsor
+                    Now</button>
+            </div>
+
+            <div class="md:col-span-3 bg-white border-4 border-brand-navy p-8 flex flex-col shadow-2xl relative">
+                <div
+                    class="absolute -top-5 left-1/2 -translate-x-1/2 bg-brand-navy text-brand-light px-6 py-1 font-bold italic text-sm uppercase">
+                    Field Partner</div>
+                <h3 class="sports-font text-2xl text-brand-navy italic mb-2">Home Run</h3>
+                <p class="sports-font text-4xl text-brand-blue italic mb-6">$1,500</p>
+                <ul class="text-gray-600 space-y-3 mb-10 flex-grow font-semibold text-sm">
+                    <li>✓ Logo on Division Jerseys</li>
+                    <li>✓ Backstop Signage</li>
+                    <li>✓ All 'Triple' Benefits</li>
+                </ul>
+                <button
+                    zeffy-form-link="https://www.zeffy.com/embed/donation-form/2026-spring-baseball?modal=true&amount=1500"
+                    class="sports-font bg-brand-navy text-white w-full py-4 text-xl italic hover:bg-black transition">Sponsor
+                    Now</button>
+            </div>
+
+            <div class="md:col-span-2 bg-white border-2 border-gray-200 p-6 flex flex-col shadow-sm">
+                <h3 class="sports-font text-xl text-brand-navy italic mb-2">Triple</h3>
+                <p class="sports-font text-3xl text-brand-blue italic mb-4">$1000</p>
+                <ul class="text-gray-500 space-y-2 mb-8 flex-grow text-xs font-bold">
+                    <li>✓ Email Marketing</li>
+                    <li>✓ Scoreboard Signage</li>
+                    <li>✓ All 'Double' Benefits</li>
+                </ul>
+                <button
+                    zeffy-form-link="https://www.zeffy.com/embed/donation-form/2026-spring-baseball?modal=true&amount=1000"
+                    class="sports-font bg-brand-blue text-white w-full py-3 text-lg italic hover:bg-brand-navy transition">Sponsor
+                    Now</button>
+            </div>
+
+            <div class="md:col-span-2 bg-white border-2 border-gray-200 p-6 flex flex-col shadow-sm">
+                <h3 class="sports-font text-xl text-brand-navy italic mb-2">Double</h3>
+                <p class="sports-font text-3xl text-brand-blue italic mb-4">$500</p>
+                <ul class="text-gray-500 space-y-2 mb-8 flex-grow text-xs font-bold">
+                    <li>✓ Dugout Signage</li>
+                    <li>✓ Social Media Shoutout</li>
+                    <li>✓ Opening Day Booth</li>
+                </ul>
+                <button
+                    zeffy-form-link="https://www.zeffy.com/embed/donation-form/2026-spring-baseball?modal=true&amount=500"
+                    class="sports-font bg-brand-blue text-white w-full py-3 text-lg italic hover:bg-brand-navy transition">Sponsor
+                    Now</button>
+            </div>
+
+            <div class="md:col-span-2 bg-white border-2 border-gray-200 p-6 flex flex-col shadow-sm">
+                <h3 class="sports-font text-xl text-brand-navy italic mb-2">Single</h3>
+                <p class="sports-font text-3xl text-brand-blue italic mb-4">$350</p>
+                <ul class="text-gray-500 space-y-2 mb-8 flex-grow text-xs font-bold">
+                    <li>✓ Outfield Signage</li>
+                    <li>✓ Website Logo Placement</li>
+                    <li>✓ Plaque of Appreciation</li>
+                </ul>
+                <button
+                    zeffy-form-link="https://www.zeffy.com/embed/donation-form/2026-spring-baseball?modal=true&amount=350"
+                    class="sports-font bg-brand-blue text-white w-full py-3 text-lg italic hover:bg-brand-navy transition">Sponsor
+                    Now</button>
+            </div>
+
+        </div>
+    </div>
+
+    <!--  Thermometer -->
+    <div style="position:relative;overflow:hidden;width:100%;padding-top:120px;"><iframe
+            title='Donation form powered by Zeffy'
+            style='position: absolute; border: 0; top:0;left:0;bottom:0;right:0;width:100%;height:120px'
+            src='https://www.zeffy.com/embed/thermometer/2026-spring-baseball' allowTransparency="true"></iframe></div>
+    <!--  End Thermometer -->
+
+
+    <div class="bg-gray-50 border-t border-b border-gray-200 py-16 px-6 text-center">
+        <h2 class="sports-font text-3xl mb-4 text-brand-navy italic">General Donations</h2>
+        <p class="mb-8 text-gray-600 max-w-xl mx-auto font-medium">Any amount helps us keep the lights on and the kids
+            playing.</p>
+        <button zeffy-form-link="https://www.zeffy.com/embed/donation-form/2026-spring-baseball?modal=true"
+            class="sports-font bg-brand-blue text-white px-12 py-4 text-2xl italic hover:bg-brand-navy transition shadow-lg">
+            Donate Any Amount
+        </button>
+    </div>
+
+    <div class="max-w-4xl mx-auto py-16 px-6 text-center">
+        <div class="border-t-2 border-brand-light pt-10">
+            <h3 class="sports-font text-3xl text-brand-navy italic mb-4">Looking for something else?</h3>
+            <p class="text-gray-600 mb-8 text-lg font-medium">
+                Whether you're interested in in-kind donations, concession stand branding, or a multi-year partnership,
+                we'd love to hear from you. We can build a custom package that works for your business.
+            </p>
+            <a href="mailto:sponsorship@wslll.com?subject=Custom Sponsorship Inquiry - 2026 Season"
+                class="sports-font inline-block bg-white text-brand-navy border-2 border-brand-navy px-10 py-3 text-xl italic hover:bg-brand-navy hover:text-white transition shadow-md">
+                Contact Us
+            </a>
+        </div>
+    </div>
+
+    <footer class="bg-gray-50 py-16 px-6 border-t border-gray-200">
+        <div class="max-w-4xl mx-auto text-center">
+            <div class="sports-font text-brand-navy text-xl italic mb-2">
+                2026 West Sugar Land Little League
+            </div>
+            <p class="text-gray-500 text-sm uppercase tracking-widest mb-8">
+                A 501(c)(3) Non-Profit Organization • EIN: 76-0419680
+            </p>
+
+            <div
+                class="inline-flex flex-col md:flex-row items-center justify-center gap-4 p-6 bg-white border border-gray-200 rounded-xl shadow-sm">
+                <div class="flex items-center gap-2">
+                    <span class="font-black text-blue-600 text-2xl tracking-tighter">zeffy</span>
+                    <div class="h-8 w-px bg-gray-300 hidden md:block mx-2"></div>
+                </div>
+
+                <div class="text-left">
+                    <p class="text-gray-700 text-sm font-bold">100% of your donation goes to our league.</p>
+                    <p class="text-gray-500 text-xs">
+                        We use Zeffy, the only zero-fee platform for nonprofits.
+                        <a href="https://www.zeffy.com/en-US/how-it-works" target="_blank"
+                            class="text-brand-blue underline hover:text-brand-navy">
+                            Learn more about how they support charities.
+                        </a>
+                    </p>
+                </div>
+            </div>
+
+            <p class="mt-10 text-gray-400 text-[10px] uppercase tracking-widest">
+                Secure SSL Encrypted Payment Processing
+            </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
